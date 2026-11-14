@@ -1,0 +1,91 @@
+{
+  "architecture": "dinov3_base",
+  "total_params": 85665028,
+  "trainable_params": 85665028,
+  "best_epoch": 13,
+  "training_time_minutes": 8.349478975931804,
+  "val_metrics": {
+    "accuracy": 0.67170626349892,
+    "balanced_accuracy": 0.7021571047694283
+  },
+  "test_metrics": {
+    "loss": 0.9323300528178884,
+    "accuracy": 0.7103825136612022,
+    "balanced_accuracy": 0.7346527777777778,
+    "f1_macro": 0.7199114940606648,
+    "f1_weighted": 0.7092797564415253,
+    "precision_macro": 0.7177319362458751,
+    "recall_macro": 0.7346527777777778,
+    "confusion_matrix": [
+      [
+        54,
+        3,
+        0,
+        7
+      ],
+      [
+        4,
+        80,
+        11,
+        5
+      ],
+      [
+        5,
+        33,
+        87,
+        35
+      ],
+      [
+        1,
+        23,
+        32,
+        169
+      ]
+    ],
+    "per_class_f1": [
+      0.84375,
+      0.6694560669456067,
+      0.6,
+      0.7664399092970522
+    ],
+    "classification_report": {
+      "Style I": {
+        "precision": 0.84375,
+        "recall": 0.84375,
+        "f1-score": 0.84375,
+        "support": 64.0
+      },
+      "Style II": {
+        "precision": 0.5755395683453237,
+        "recall": 0.8,
+        "f1-score": 0.6694560669456067,
+        "support": 100.0
+      },
+      "Style III": {
+        "precision": 0.6692307692307692,
+        "recall": 0.54375,
+        "f1-score": 0.6,
+        "support": 160.0
+      },
+      "Style IV": {
+        "precision": 0.7824074074074074,
+        "recall": 0.7511111111111111,
+        "f1-score": 0.7664399092970522,
+        "support": 225.0
+      },
+      "accuracy": 0.7103825136612022,
+      "macro avg": {
+        "precision": 0.7177319362458751,
+        "recall": 0.7346527777777778,
+        "f1-score": 0.7199114940606648,
+        "support": 549.0
+      },
+      "weighted avg": {
+        "precision": 0.7188935274647034,
+        "recall": 0.7103825136612022,
+        "f1-score": 0.7092797564415253,
+        "support": 549.0
+      }
+    }
+  }
+}

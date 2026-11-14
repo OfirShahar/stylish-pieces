@@ -1,0 +1,9 @@
+{
+  "data_dir": "<path to Pompeian Styles dataset>",
+  "output_dir": "results/pompeian",
+  "feature_extractor": "all",
+  "n_estimators": 500,
+  "max_depth": null,
+  "pca_components": 256,
+  "seed": 42
+}

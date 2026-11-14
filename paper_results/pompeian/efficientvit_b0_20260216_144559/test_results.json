@@ -1,0 +1,91 @@
+{
+  "architecture": "efficientvit_b0",
+  "total_params": 2134132,
+  "trainable_params": 2134132,
+  "best_epoch": 20,
+  "training_time_minutes": 3.292334032058716,
+  "val_metrics": {
+    "accuracy": 0.5593952483801296,
+    "balanced_accuracy": 0.6132740622663602
+  },
+  "test_metrics": {
+    "loss": 1.0652870206885,
+    "accuracy": 0.5956284153005464,
+    "balanced_accuracy": 0.6142708333333333,
+    "f1_macro": 0.5992764781535658,
+    "f1_weighted": 0.6031237613275509,
+    "precision_macro": 0.6201912387693485,
+    "recall_macro": 0.6142708333333333,
+    "confusion_matrix": [
+      [
+        38,
+        14,
+        5,
+        7
+      ],
+      [
+        1,
+        73,
+        18,
+        8
+      ],
+      [
+        8,
+        39,
+        96,
+        17
+      ],
+      [
+        7,
+        48,
+        50,
+        120
+      ]
+    ],
+    "per_class_f1": [
+      0.6440677966101694,
+      0.5328467153284672,
+      0.5835866261398176,
+      0.636604774535809
+    ],
+    "classification_report": {
+      "Style I": {
+        "precision": 0.7037037037037037,
+        "recall": 0.59375,
+        "f1-score": 0.6440677966101694,
+        "support": 64.0
+      },
+      "Style II": {
+        "precision": 0.41954022988505746,
+        "recall": 0.73,
+        "f1-score": 0.5328467153284672,
+        "support": 100.0
+      },
+      "Style III": {
+        "precision": 0.5680473372781065,
+        "recall": 0.6,
+        "f1-score": 0.5835866261398176,
+        "support": 160.0
+      },
+      "Style IV": {
+        "precision": 0.7894736842105263,
+        "recall": 0.5333333333333333,
+        "f1-score": 0.636604774535809,
+        "support": 225.0
+      },
+      "accuracy": 0.5956284153005464,
+      "macro avg": {
+        "precision": 0.6201912387693485,
+        "recall": 0.6142708333333333,
+        "f1-score": 0.5992764781535658,
+        "support": 549.0
+      },
+      "weighted avg": {
+        "precision": 0.6475595864069367,
+        "recall": 0.5956284153005464,
+        "f1-score": 0.6031237613275509,
+        "support": 549.0
+      }
+    }
+  }
+}
